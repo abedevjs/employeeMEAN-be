@@ -7,7 +7,7 @@
     "node": "14.x"
   },
   "scripts": {
-    "start:development": "node db.js",
+    "start": "node db.js",
     "build": "node db.js"
   },
   "author": "freecodecamp",
