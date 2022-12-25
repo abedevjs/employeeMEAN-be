@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Employee app using MEAN",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start:development": "nodemon db.js"
+    "start:development": "node db.js",
+    "start:production": "node db.js"
   },
   "author": "freecodecamp",
   "license": "ISC",
@@ -17,8 +21,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  },
-  "engines": {
-    "node": ">=14"
   }
 }
