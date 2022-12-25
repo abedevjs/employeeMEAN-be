@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start:development": "node db.js",
-    "start:production": "node db.js"
+    "build": "node db.js"
   },
   "author": "freecodecamp",
   "license": "ISC",
